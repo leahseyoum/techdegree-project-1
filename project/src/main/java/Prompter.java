@@ -28,7 +28,7 @@ public class Prompter {
 	public int promptForValidGuess(int guess, int maxItemNumber) {
 		
 		while (guess > maxItemNumber) {
-			System.out.print("%n Your guess must be less than maximum fill amount:  ");
+			System.out.print(" Your guess must be less than maximum fill amount:  ");
 			String stringGuess = scanner.nextLine();
 			guess = Integer.parseInt(stringGuess);
 		}
